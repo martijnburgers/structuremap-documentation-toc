@@ -1,0 +1,110 @@
+# Landing Page (http://fubuworld.com/structuremap/)
+
+Landing page for the project. Containing a pitch for SM, a listing of a few prominent features (maybe with a few source code examples as well) and of course the latest news about SM.
+
+Links to:
+
+- Get StructureMap
+- Quick start
+- Learn (see documentation structure)
+- Features
+- Extensions
+- Get Help
+- Release Notes
+- Contribute
+- Road Map
+- (direct links to: Github, Nuget, Twitter, mailing-list)
+
+# Documentation Structure (http://fubuworld.com/structuremap/learn/)
+
+TOC:
+- Quickstart (host agnostic)	
+- Get StructureMap
+	- Source
+	- Binaries
+	- Release Notes
+	- Supported environments\platforms.
+	- Roadmap
+- Features (quick overview of the main features)
+	- **todo for @Jeremy, which prominent/main features do you want to list here?**
+- Design Concepts	
+	- Dependecy Injection
+		- Constructor Injection		
+		- Property/Setter Injection
+		- Method Injection
+	- Inversion of Control
+	- Common Service Locator (anti pattern or not)
+	- Application structure	
+		- Composition root
+- The Container
+	- Registering components
+		- Registry
+			- Configuring the default plug-in instance 
+			- Configuring multiple plug-in instance
+			- Configuring a missing named plug-in instance
+			- Configuring concrete types
+			- Configuring open generic types					
+		- XML
+			- **(should be more or less the same as the registry DSL, depending on which is supported by the XML approach)**		
+		- Auto Registration
+			- Scanning conventions
+		- Configuring instances 		
+		- Wiring (**@Jeremy, could you provide some thoughts on this chapter?**		
+			- Auto Wiring
+			- Wiring sequences
+			- Wiring primitives
+			- Wiring decorators
+		- Changing configuration at runtime
+	- Resolving services
+		- Get a service by plug-in type
+		- Get a service by plugin-in type and name
+		- Get all services of a plug-in type 
+		- Try getting a service by plug-in type
+		- Try getting a service by plugin-in type and name
+		- Passing arguments at runtime before resolving a service. **(also some text about abstract factories)**
+	- Profiles
+	- Nested Containers
+	- The Model (ObjectFactory.Model)
+- Object Lifetime
+	- Supported lifestyles
+	- Configuring lifestyles
+		- Through Code
+		- Through XML
+	- Custom lifestyles
+- Decorators
+- Interception
+- Diagnostics
+	- What's inside
+	- The doctor
+	- Asserting the configuration	
+- Extensions
+	- Extension points
+	- Proprietary
+		- AutoMocking
+		- AutoFactory 
+	- External (3rd party extensions)
+- Integrations
+	- FubuMVC
+	- ASP.NET WebForms
+	- ASP.NET MVC
+	- ASP.NET WebApi
+	- ASP.NET SignalR
+	- AutoMapper
+	- Nancy
+	- WCF
+	- WPF
+	- Console
+	- Windows Services
+- Internals
+	- Configuration Expressions
+ 	- Pipelines
+ 	- The plugin family (including graphs) 	
+ 	- Using the Session Context 
+ 	- **todo for @Jeremy, what kind of other subjects do you want to see here?**
+- Cookbook
+- FAQ
+- API Documentation
+- Glossary
+- Get Help
+- Contribute (including CLA)
+- Roadmap
