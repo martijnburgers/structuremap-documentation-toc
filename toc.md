@@ -1,4 +1,4 @@
-# Landing Page (http://fubuworld.com/structuremap/)
+# Project Landing Page (http://fubuworld.com/structuremap/)
 
 Landing page for the project. Containing a pitch for SM, a listing of a few prominent features (maybe with a few source code examples as well) and of course the latest news about SM.
 
@@ -15,7 +15,7 @@ Links to:
 - Road Map
 - (direct links to: Github, Nuget, Twitter, mailing-list)
 
-# Documentation Structure (http://fubuworld.com/structuremap/learn/)
+# Project Documentation Structure (http://fubuworld.com/structuremap/learn/)
 
 TOC:
 - Quickstart (host agnostic)	
@@ -49,7 +49,7 @@ TOC:
 		- Auto Registration
 			- Scanning conventions
 		- Configuring instances 		
-		- Wiring (**@Jeremy, could you provide some thoughts on this chapter?**		
+		- Wiring	
 			- Auto Wiring
 			- Wiring sequences
 			- Wiring primitives
@@ -61,7 +61,7 @@ TOC:
 		- Get all services of a plug-in type 
 		- Try getting a service by plug-in type
 		- Try getting a service by plugin-in type and name
-		- Passing arguments at runtime before resolving a service. **(also some text about abstract factories)**
+		- Passing arguments at runtime before resolving a service (also some text about abstract factories).
 	- Profiles
 	- Nested Containers
 	- The Model (ObjectFactory.Model)
@@ -95,7 +95,7 @@ TOC:
 	- WPF
 	- Console
 	- Windows Services
-- Internals
+- Internals (architecture)
 	- Configuration Expressions
  	- Pipelines
  	- The plugin family (including graphs) 	
