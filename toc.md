@@ -26,16 +26,20 @@ TOC:
 	- Supported environments\platforms.
 	- Roadmap
 - Features (quick overview of the main features)
-	- **todo for @Jeremy, which prominent/main features do you want to list here?**
+	- All common dependency injection patterns
+	- Child containers for specific areas of the application
+	- "Profile" containers for multi-tenancy scenarios
+	- Nested containers for per request scoping
+	- Strong configuration diagnostics
+	- Intuitive DSL for easy configuration
+	- Full semantic model to support diagnostics and open ended conventions
 - Design Concepts	
 	- Dependecy Injection
 		- Constructor Injection		
-		- Property/Setter Injection
-		- Method Injection
+		- Property/Setter Injection		
 	- Inversion of Control
-	- Common Service Locator (anti pattern or not)
-	- Application structure	
-		- Composition root
+	- Service Locator (anti pattern or not)
+	- Application structure	(story about composition root and usage of the container during application execution)
 - The Container
 	- Registering components
 		- Registry
@@ -43,40 +47,47 @@ TOC:
 			- Configuring multiple plug-in instance
 			- Configuring a missing named plug-in instance
 			- Configuring concrete types
-			- Configuring open generic types					
+			- Configuring open generic types
+			- Configuring forwaring types
+			- Registering Lambdas
 		- XML
 			- **(should be more or less the same as the registry DSL, depending on which is supported by the XML approach)**		
 		- Auto Registration
 			- Scanning conventions
-		- Configuring instances 		
+		- Inline Dependencies (old configuring instances)
 		- Wiring	
 			- Auto Wiring
 			- Wiring sequences
 			- Wiring primitives
 			- Wiring decorators
 		- Changing configuration at runtime
+		- Policies
 	- Resolving services
+		- Constructor selection
 		- Get a service by plug-in type
 		- Get a service by plugin-in type and name
 		- Get all services of a plug-in type 
 		- Try getting a service by plug-in type
 		- Try getting a service by plugin-in type and name
 		- Passing arguments at runtime before resolving a service (also some text about abstract factories).
-	- Profiles
-	- Nested Containers
-	- The Model (ObjectFactory.Model)
+	- Forwarding requests
+	- Profiles and Child Container
+	- Nested Containers	
 - Object Lifetime
-	- Supported lifestyles
-	- Configuring lifestyles
+	- Supported lifecycles
+	- Configuring lifecycles
 		- Through Code
 		- Through XML
-	- Custom lifestyles
+	- Custom lifecycles
+- StructureMap Assumptions
 - Decorators
 - Interception
+- Interpreting Exceptions
 - Diagnostics
-	- What's inside
-	- The doctor
+	- What's inside	
 	- Asserting the configuration	
+	- The Model (ObjectFactory.Model)
+	- Build Plans
 - Extensions
 	- Extension points
 	- Proprietary
@@ -99,8 +110,8 @@ TOC:
 	- Configuration Expressions
  	- Pipelines
  	- The plugin family (including graphs) 	
- 	- Using the Session Context 
- 	- **todo for @Jeremy, what kind of other subjects do you want to see here?**
+ 	- Using the Session Context 	
+- Best Practices
 - Cookbook
 - FAQ
 - API Documentation
