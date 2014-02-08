@@ -18,7 +18,8 @@ Links to:
 # Project Documentation Structure (http://fubuworld.com/structuremap/learn/)
 
 TOC:
-- Quickstart (host agnostic)	
+- Quickstart (host agnostic)
+- Glossary
 - Get StructureMap
 	- Source
 	- Binaries
@@ -115,7 +116,6 @@ TOC:
 - Cookbook
 - FAQ
 - API Documentation
-- Glossary
 - Get Help
 - Contribute (including CLA)
 - Roadmap
