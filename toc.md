@@ -72,7 +72,6 @@ TOC:
 		- Try getting a service by plugin-in type and name
 		- Get a concrete type
 		- Passing arguments at runtime before resolving a service (also some text about abstract factories).
-		- 
 	- Forwarding requests
 	- Profiles and Child Container
 	- Nested Containers	
