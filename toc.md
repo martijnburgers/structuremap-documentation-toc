@@ -51,7 +51,7 @@ TOC:
 			- Configuring forwaring types
 			- Registering Lambdas
 		- XML
-			- **(should be more or less the same as the registry DSL, depending on which is supported by the XML approach)**		
+			- (should be more or less the same as the registry DSL, depending on which is supported by the XML approach)
 		- Auto Registration
 			- Scanning conventions
 		- Inline Dependencies (old configuring instances)
