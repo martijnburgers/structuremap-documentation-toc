@@ -199,7 +199,7 @@ var blahInstance = ObjectFactory.TryGetInstance<IBlah>();
 Debug.Assert(blahInstance != null, String.Format("no default instance for {0}", typeof(IBlah).FullName));
 ```
 
-This will try to create or find the default instance of the requested service type. It will returns the default value (i.e. `null`) of the requested service if it's not known to the container. The assertion condition will be false because `blahInstance` will be `null`.
+This will try to create or find the default instance of the requested service type. It will returns the default value (i.e. `null`) of the requested service if it's not known to the container. The condition of the assertion will be false because `blahInstance` will be `null`.
 
 StructureMap's `ObjectFactory` class should be used with caution because a [Service Locator]() is largely considered an anti-pattern. Meaning the use of the `ObjectFactory` class through your code is not recommended. Typically, you must try to minimize the number of service locator usages in your system to a bare minimum. Most of the value of an IoC tool is in automatically doing Dependency Injection. This is possible by a feature called [auto wiring]() and can most effectivly be utilized in your application's [integration]() setup. This ensures  that needed services get resolved from a central, top level location in your application, making the need for manual resolution rare.
 
