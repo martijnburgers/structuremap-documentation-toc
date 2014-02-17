@@ -18,7 +18,8 @@ Links to:
 # Project Documentation Structure (http://fubuworld.com/structuremap/learn/)
 
 TOC:
-- Quickstart (host agnostic)	
+- Quickstart (host agnostic)
+- Glossary
 - Get StructureMap
 	- Source
 	- Binaries
@@ -69,6 +70,7 @@ TOC:
 		- Get all services of a plug-in type 
 		- Try getting a service by plug-in type
 		- Try getting a service by plugin-in type and name
+		- Get a concrete type
 		- Passing arguments at runtime before resolving a service (also some text about abstract factories).
 	- Forwarding requests
 	- Profiles and Child Container
@@ -115,7 +117,7 @@ TOC:
 - Cookbook
 - FAQ
 - API Documentation
-- Glossary
 - Get Help
 - Contribute (including CLA)
 - Roadmap
+- History
