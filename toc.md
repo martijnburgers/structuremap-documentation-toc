@@ -25,7 +25,6 @@ TOC:
 	- Binaries
 	- Release Notes
 	- Supported environments\platforms.
-	- Roadmap
 - Features (quick overview of the main features)
 	- All common dependency injection patterns
 	- Child containers for specific areas of the application
